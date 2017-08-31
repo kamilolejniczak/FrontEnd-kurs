@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dynamiczny kreator strony</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+				
+		<!-- Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap/bootstrap-theme.css">
+		
+		<!-- jQuery -->
+		<script type = "text/javascript" src = "scripts/jquery-3.2.1.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<script type = "text/javascript" src = "scripts/script.js"></script>
+		
+		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+		
+	</head>
+	<body>
+	
+	<div class="container-fluid"><!-- Kontener z pełnym wypełnieniem -->
+		<div class="row"><!-- Bootstrap wiersz -->
+			
+			<h1>Dynamiczny kreator strony</h1>
+			
+			<div id='kreator' class="col-lg-4"><!-- Kolumna lg z 4 jednostkami -->
+				
+				<h3>Nagłówek</h3>
+				
+					<p>
+						Logo: <input id="logo" name="logo" type="text" size="50">
+					</p>
+					<p>
+						Tekst powitalny:<br> <textarea id="tekstPowitalny" name="tekstPowitalny" type="text" rows="5" cols="50"></textarea>
+					</p>
+					
+				<h3>Menu</h3>
+				
+					<p>
+						Menu: <input id="menu" name="menu" type="text" size="50">
+					</p>
+					
+				<h3>Zawartość strony</h3>
+				
+					<p>
+						<textarea id="zawartoscStrony" name="zawartoscStrony" type="text" rows="10" cols="50"></textarea>
+					</p>
+					
+				<h3>Stopka</h3>
+				
+					<p>
+						<input id="stopka" name="stopka" type="text" size="50">
+					</p>
+				
+			</div>
+			
+			<div id='content' class='col-lg-8'><!-- Kolumna lg z 8 jednostkami -->
+
+				<div class="row"><!-- Bootstrap wiersz -->
+					<div id="content-logo" class='col-lg-4'><!-- Kolumna lg z 4 jednostkami -->
+					</div>
+					<div id="content-tekstPowitalny" class='col-lg-8'><!-- Kolumna lg z 8 jednostkami -->
+					</div>
+				</div>
+				<div class='row'><!-- Bootstrap wiersz -->
+					<div id="content-menu" class='col-lg-12'><!-- Kolumna lg z 12 jednostkami -->
+					</div>
+				</div>
+				<div class='row'><!-- Bootstrap wiersz -->
+					
+					<h3 id='witaj'>Witaj na mojej stronie Front-end</h3>
+					
+					<div id="content-zawartoscStrony" class='col-lg-12'><!-- Kolumna lg z 12 jednostkami -->
+					</div>
+				</div>
+				<div class='row'><!-- Bootstrap wiersz -->
+										
+					<div id="content-stopka" class='col-lg-12'><!-- Kolumna lg z 12 jednostkami -->
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+	
+
+	
+	</body>
+</html>

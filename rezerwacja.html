@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html"; charset="utf-8"/>
+	<title>Rezerwacja</title>
+	</head>
+	<body>
+		<h1>Rezerwacja biletu lotniczego</h1>
+			<form action="" method="POST">
+				<p>Imię:<input name="imie" type="text">,
+				Nazwisko:<input name="nazwisko" type="text"></p>
+				<p>Wylot z:
+					<select name="Wylot_z">
+						<option>--wybierz--</option>
+						<option>Warszawa</option>
+						<option>Kraków</option>
+						<option>Łódź</option>
+					</select>
+				</p>
+				<p>Przylot do:
+					<select name="Przylot_do">
+						<option>--wybierz--</option>
+						<option>Warszawa</option>
+						<option>Kraków</option>
+						<option>Łódź</option>
+					</select>
+				</p>
+				<p>
+				Miejsce_VIP:<br>
+				Tak<input type="radio" name="VIP" value="Tak"><br>
+				Nie<input type="radio" name="VIP" value="Nie">
+				</p>
+				<p>
+				Dodatkowe opcje:<br>
+				Posiłek gorący <input type="checkbox" name="Posiłek" value="Tak"><br>
+				Deser <input type="checkbox" name="Deser" value="Tak">
+				</p>
+				<p>
+				Uwagi:<br>
+					<textarea></textarea>
+				</p>
+				<p>
+					<button type="Reset">Wyczyść formularz</button>
+					<button type="Submit">Wyślij formularz</button>
+				</p>
+			</form>
+	</body>
+</html>

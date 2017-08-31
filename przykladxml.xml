@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rodzina>
+	<człowiek>
+		<ja wiek="20">
+			<imie>Kamil</imie><!-- przykładowy komentarz -->
+			<nazwisko>O.</nazwisko>
+			
+			<zawód></zawód>
+			<miasto>Zielona Góra</miasto>
+		</ja>
+		<wujek>
+			<imie>Staszek</imie><!-- przykładowy komentarz -->
+			<nazwisko>O.</nazwisko>
+			<wiek>30</wiek>
+			<miasto>Zielona Góra</miasto>
+		</wujek>
+		<ciotka>
+			<imie>Kamila</imie><!-- przykładowy komentarz -->
+			<nazwisko>O.</nazwisko>
+			<wiek>28</wiek>
+			<miasto>Zielona Góra</miasto>
+		</ciotka>
+		</człowiek>
+		<zwierzak>
+			<pies>
+				<imie>szarik</imie><!-- przykładowy komentarz -->
+				<rasa>O.</rasa>
+				<wiek>5</wiek>
+				<miasto>Zielona Góra</miasto>
+			</pies>
+		</zwierzak>
+</Rodzina>
+<!-- przykładowy komentarz -->

@@ -1,0 +1,39 @@
+h1 { 
+	border-bottom:1px solid red;
+	text-shadow:1px 1px;
+	
+}
+footer {
+	padding-top:50px;
+	padding-bottom:150px;
+	font-size:10px;
+}
+footer span {
+	text-decoration:underline;
+}
+#podkreslenie a {
+	text-decoration:none;
+	margin-right:70px;
+	color:white;
+}
+#podkreslenie a:hover {
+	text-decoration:none;
+	background-color:white;
+	color:black;
+}
+#podkreslenie {
+	background-color:black;
+}
+body {
+	font-family:verdana;
+	margin-left:150px;
+	padding:0px;
+	width:700px;
+	background-image:linear-gradient(silver,green);
+}
+p {
+	font-family: 'Indie Flower', cursive;
+	display:inline;
+}
+
+

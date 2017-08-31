@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<czary>
+	<mary src="potlood" fname="15" qwerty="ytrewq">
+		cyk
+		bzyk
+		hop
+	</mary>
+	<!-- Mieszkaliśmy na merklinie -->
+	<mary>
+		cyk
+		bzyk
+		hop
+	</mary>
+	<mary>
+		cyk
+		<bzyk>notacja</bzyk>
+		hop
+	</mary>
+</czary>
+		
